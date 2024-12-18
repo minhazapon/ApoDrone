@@ -1,3 +1,4 @@
+import BuyNow from "./home file/BuyNow";
 import Exprience from "./home file/Exprience";
 import HomeBanner from "./home file/HomeBanner";
 
@@ -9,6 +10,7 @@ const Home = () => {
 
             <HomeBanner></HomeBanner>
             <Exprience></Exprience>
+            <BuyNow></BuyNow>
             
         </div>
     );
