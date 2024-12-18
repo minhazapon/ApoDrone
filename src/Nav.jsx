@@ -1,4 +1,8 @@
 import { NavLink } from "react-router-dom";
+import { CiSearch } from "react-icons/ci";
+import { CiShoppingBasket } from "react-icons/ci";
+import { CiSettings } from "react-icons/ci";
+import { TbWorldCog } from "react-icons/tb";
 
 
 
@@ -20,7 +24,7 @@ const Nav = () => {
 
 
     return (
-        <div>
+        <div className=" flex items-center  ">
 
 
             <div className="navbar bg-base-100 shadow p-5 ">
@@ -56,7 +60,16 @@ const Nav = () => {
                  {nav}
                 </ul>
               </div>
+              <div className=" flex justify-end gap-5 ">
+              <p><CiSearch className=" h-[30px] w-[30px] "></CiSearch></p>
+              <p><CiShoppingBasket className="h-[30px] w-[30px] "></CiShoppingBasket></p>
+              <p><CiSettings className=" h-[30px] w-[30px] "></CiSettings></p>
+              <p><TbWorldCog className=" h-[30px] w-[30px] "></TbWorldCog></p>
+              </div>
             </div>
+
+
+        
             
         </div>
     );
