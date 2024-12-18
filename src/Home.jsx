@@ -1,3 +1,4 @@
+import Exprience from "./home file/Exprience";
 import HomeBanner from "./home file/HomeBanner";
 
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
 
             <HomeBanner></HomeBanner>
+            <Exprience></Exprience>
             
         </div>
     );
