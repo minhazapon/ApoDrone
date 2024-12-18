@@ -48,7 +48,7 @@ const Nav = () => {
                 </div>
                 <div className=" flex items-center gap-2">
                  <img className=" h-[40px] w-[40px] " src="https://cdn-icons-gif.flaticon.com/15568/15568296.gif" alt="" />
-                 <a className=" text-2xl droFont">ApoDrone</a>
+                 <a className=" text-2xl droFont">ApoDro</a>
                 </div>
               </div>
               <div className="navbar-center hidden lg:flex">
