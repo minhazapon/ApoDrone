@@ -1,5 +1,6 @@
 import BuyNow from "./home file/BuyNow";
 import Camera from "./home file/Camera";
+import Clients from "./home file/Clients";
 import Drone from "./home file/Drone";
 import Exprience from "./home file/Exprience";
 import HomeBanner from "./home file/HomeBanner";
@@ -19,6 +20,7 @@ const Home = () => {
             <Structure></Structure>
             <Our></Our>
             <Drone></Drone>
+            <Clients></Clients>
             
         </div>
     );
