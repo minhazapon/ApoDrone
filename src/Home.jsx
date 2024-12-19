@@ -6,6 +6,7 @@ import Exprience from "./home file/Exprience";
 import HomeBanner from "./home file/HomeBanner";
 import Our from "./home file/Our";
 import Structure from "./home file/Structure";
+import Ultra from "./home file/Ultra";
 
 
 
@@ -21,6 +22,7 @@ const Home = () => {
             <Our></Our>
             <Drone></Drone>
             <Clients></Clients>
+            <Ultra></Ultra>
             
         </div>
     );
