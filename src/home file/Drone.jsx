@@ -17,32 +17,29 @@ const Drone = () => {
     } , [])
 
     return (
-        <div className=" mt-20 mb-10 ml-10 mr-10 ">
 
-        <div>
-        <div>
-        <p className=" text-center text-gray-500 droFont text-xl ">Featured products</p>
-        <p className=" text-center text-black mt-5 droFont text-4xl ">DRONE PRODUCTS</p>
-        </div>
-
-
-            <div className=" flex justify-center mt-10 ">
-             <div className=" grid  md:grid-cols-4 gap-10 ">
-
-                  {
-
-                      drone.map( drone => <DroneDetails drone={drone} ></DroneDetails> )
-                  
-                  }
-                    
-
-             </div>
-            </div>
-
-
-            </div>
+        <div className=" bg-blue-50  p-1 ">
             
+
+            <div className=" mt-20 mb-10 ml-10 mr-10 ">
+            <div className="   ">
+            <div>
+            <p className=" text-center text-gray-500 droFont text-xl ">Featured products</p>
+            <p className=" text-center text-black mt-5 droFont text-4xl ">DRONE PRODUCTS</p>
+            </div>
+            <div className=" flex justify-center mt-10 ">
+            <div className=" grid  md:grid-cols-4 gap-10 ">
+                      {
+                          drone.map( drone => <DroneDetails drone={drone} ></DroneDetails> )
+                      }
+            </div>
+            </div>
+            </div>
+            </div>
+
+
         </div>
+       
     );
 };
 
