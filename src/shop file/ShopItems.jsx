@@ -12,7 +12,7 @@ const ShopItems = () => {
 
                      
             
-            <Link to=''>
+            <Link to='/back'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img

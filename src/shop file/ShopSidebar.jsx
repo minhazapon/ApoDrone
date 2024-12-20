@@ -4,11 +4,11 @@ import { IoCheckmarkCircle } from "react-icons/io5";
 
 const ShopSidebar = () => {
     return (
-        <div className="  mr-20 ml-20">
+        <div className="  ">
           
           <div>
 
-          
+           
             <div className=" bg-slate-100 w-[280px] p-5 rounded-xl ">
             <p className=" text-4xl droFont">Categories</p>
             <div className=" flex items-center gap-2 cursor-pointer mt-4 hover:text-cyan-400 ">

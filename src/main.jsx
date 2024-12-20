@@ -11,6 +11,7 @@ import {
 import Root from './Root';
 import Home from './Home';
 import Shop from './shop file/Shop';
+import Backpack from './shop file/Backpack';
 
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/shop",
         element: <Shop></Shop> ,
+      },
+      {
+        path: "/back",
+        element: <Backpack></Backpack> ,
       },
     ],
   },

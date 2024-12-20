@@ -1,14 +1,16 @@
 
 
 
-const DroneDetails = ({drone}) => {
 
-    const {image, name, price} = drone
+const BackDetails = ({back}) => {
+
+    const {image, title, price} = back
 
     return (
 
         <div>
-        <div className="card bg-base-100  w-[300px] shadow-xl hover:border-[1px] ">
+        <div>
+        <div className="card bg-base-100   w-[300px] shadow-xl hover:border-[1px] ">
         <figure className=" p-5">
         <img src={image} alt="Shoes" className="rounded-xl h-[200px] " />
         </figure>
@@ -26,7 +28,7 @@ const DroneDetails = ({drone}) => {
         </div>
         </div>
         <div className="card-body items-center text-center">
-        <h2 className="card-title text-xs droFont "> {name} </h2>
+        <h2 className="card-title text-xs droFont "> {title} </h2>
         <div className=" flex items-center gap-2 ">
          <p className=" droFont text-cyan-400 font-semibold ">{price}</p>
          <p className=" droFont line-through text-gray-400 ">$5000</p>
@@ -37,8 +39,9 @@ const DroneDetails = ({drone}) => {
         </div>
         </div>
         </div>
+        </div>
 
     );
 };
 
-export default DroneDetails;
+export default BackDetails;
