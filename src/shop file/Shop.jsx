@@ -1,5 +1,6 @@
 import ShopBanner from "./ShopBanner";
 import ShopItems from "./ShopItems";
+import ShopSidebar from "./ShopSidebar";
 
 
 
@@ -11,6 +12,7 @@ const Shop = () => {
 
             <ShopBanner></ShopBanner>
             <ShopItems></ShopItems>
+            <ShopSidebar></ShopSidebar>
             
         </div>
     );
