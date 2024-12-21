@@ -243,23 +243,6 @@ const ShopItems = () => {
             </div>
             </Link>
 
-            <Link to='/staff'>
-            <div className="card bg-base-100 image-full w-96 shadow-xl">
-            <figure>
-            <img
-            src="https://elomus-theme.myshopify.com/cdn/shop/products/1_59fef813-05a2-4fe2-b10f-8ae9270ebfe2.jpg?crop=center&height=600&v=1573737772&width=600"
-            alt="Shoes" />
-            </figure>
-            <div className="card-body">
-            <h2 className="card-title droFont ">Staff Picks</h2>
-            <p className=" droFont ">8 Items in Stock</p>
-            <div className="card-actions justify-end">
-             <button className="btn  bg-white droFont ">Go Shop</button>
-            </div>
-            </div>
-            </div>
-            </Link>
-
 
             <Link to='/stroller'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">

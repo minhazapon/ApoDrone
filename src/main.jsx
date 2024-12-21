@@ -24,6 +24,8 @@ import Shaver from './shop file/Shaver';
 import Shoes from './shop file/Shoes';
 import Skin from './shop file/Skin';
 import Smart from './shop file/Smart';
+import Stroller from './shop file/Stroller';
+import Wallet from './shop file/Wallet';
 
 
 const router = createBrowserRouter([
@@ -90,6 +92,14 @@ const router = createBrowserRouter([
       {
         path: "/smart",
         element: <Smart></Smart>  ,
+      },
+      {
+        path: "/stroller",
+        element: <Stroller></Stroller>  ,
+      },
+      {
+        path: "/wallet",
+        element: <Wallet></Wallet>  ,
       },
     ],
   },
