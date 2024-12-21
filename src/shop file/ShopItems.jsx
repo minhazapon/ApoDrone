@@ -226,7 +226,7 @@ const ShopItems = () => {
             </div>
             </Link>
 
-            <Link to='/smartwatch'>
+            <Link to='/smart'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img

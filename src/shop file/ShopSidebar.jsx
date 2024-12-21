@@ -7,7 +7,7 @@ const ShopSidebar = () => {
         <div className=" flex justify-center  ">
           
           <div>
- 
+  
             
             <div className=" bg-slate-100 w-[280px] p-5 rounded-xl ">
             <p className=" text-4xl droFont">Categories</p>

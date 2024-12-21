@@ -23,6 +23,7 @@ import Scooty from './shop file/Scooty';
 import Shaver from './shop file/Shaver';
 import Shoes from './shop file/Shoes';
 import Skin from './shop file/Skin';
+import Smart from './shop file/Smart';
 
 
 const router = createBrowserRouter([
@@ -85,6 +86,10 @@ const router = createBrowserRouter([
       {
         path: "/skincare",
         element: <Skin></Skin>  ,
+      },
+      {
+        path: "/smart",
+        element: <Smart></Smart>  ,
       },
     ],
   },
