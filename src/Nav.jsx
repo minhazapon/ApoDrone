@@ -15,8 +15,10 @@ const Nav = () => {
        <li className=" droFont " ><NavLink to='/shop'>Shop</NavLink></li>
        <li className=" droFont " ><NavLink to='/product'>Products</NavLink></li>
        <li className=" droFont " ><NavLink to='/package'>Package</NavLink></li>
-       <li className=" droFont " ><NavLink to='/about'>About</NavLink></li>
+       <li className=" droFont " ><NavLink to='/AboutMother'>About</NavLink></li>
        <li className=" droFont " ><NavLink to='/service'>Service</NavLink></li>
+       <li className=" droFont " ><NavLink to='/about'>Contact</NavLink></li>
+       <li className=" droFont " ><NavLink to='/service'>Blog</NavLink></li>
     
     </>
 
