@@ -30,7 +30,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/bag'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
