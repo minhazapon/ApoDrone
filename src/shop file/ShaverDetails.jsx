@@ -1,15 +1,16 @@
 
 
 
-const ScootyDeTails = ({scooty}) => {
 
-    const {image, title, price} = scooty
- 
+const ShaverDetails = ({Shaver}) => {
+
+    const {image, title, price} = Shaver 
+   
     return (
         <div>
 
 
-        <div>
+<div>
         <div>
         <div className="card bg-base-100   w-[300px] shadow-xl hover:border-[1px] ">
         <figure className=" p-5">
@@ -46,4 +47,4 @@ const ScootyDeTails = ({scooty}) => {
     );
 };
 
-export default ScootyDeTails;
+export default ShaverDetails;

@@ -20,6 +20,7 @@ import DroneShop from './shop file/DroneShop';
 import HeadPhone from './shop file/HeadPhone';
 import Jewellery from './shop file/Jewellery';
 import Scooty from './shop file/Scooty';
+import Shaver from './shop file/Shaver';
 
 
 const router = createBrowserRouter([
@@ -70,6 +71,10 @@ const router = createBrowserRouter([
       {
         path: "/scooty",
         element: <Scooty></Scooty>   ,
+      },
+      {
+        path: "/shaver",
+        element: <Shaver></Shaver>  ,
       },
     ],
   },
