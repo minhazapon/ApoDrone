@@ -4,8 +4,6 @@ import ShopSidebar from "./ShopSidebar";
 import BagDetails from "./BagDetails";
 
 
-
-
 const Bag = () => {
 
     const [Bag, setBag] = useState([])

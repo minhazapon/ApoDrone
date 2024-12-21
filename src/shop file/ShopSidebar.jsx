@@ -7,8 +7,8 @@ const ShopSidebar = () => {
         <div className="  ">
           
           <div>
-
-           
+ 
+            
             <div className=" bg-slate-100 w-[280px] p-5 rounded-xl ">
             <p className=" text-4xl droFont">Categories</p>
             <div className=" flex items-center gap-2 cursor-pointer mt-4 hover:text-cyan-400 ">
@@ -86,15 +86,6 @@ const ShopSidebar = () => {
             <div>
             <img className=" w-[280px] mt-5 rounded-xl " src="https://elomus-theme.myshopify.com/cdn/shop/files/insta_drone_6.jpg?v=1613769451" alt="" />
             </div>
-
-
-
-
-
-
-
-
-
 
 
           </div>

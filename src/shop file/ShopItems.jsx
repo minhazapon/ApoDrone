@@ -47,7 +47,7 @@ const ShopItems = () => {
             </div>
             </Link>
 
-            <Link to=''>
+            <Link to='/cycle'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -65,7 +65,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/coffe'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -83,29 +83,11 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/drink'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
             src="https://elomus-theme.myshopify.com/cdn/shop/products/7_a5088e25-e3d3-4066-b33d-47cad2cf768a.jpg?crop=center&height=600&v=1573665128&width=600"
-            alt="Shoes" />
-            </figure>
-            <div className="card-body">
-            <h2 className="card-title droFont ">BagPacks</h2>
-            <p className=" droFont ">6 Items in Stock</p>
-            <div className="card-actions justify-end">
-             <button className="btn  bg-white droFont ">Go Shop</button>
-            </div>
-            </div>
-            </div>
-            </Link>
-
-
-            <Link to=''>
-            <div className="card bg-base-100 image-full w-96 shadow-xl">
-            <figure>
-            <img
-            src="https://elomus-theme.myshopify.com/cdn/shop/collections/coll_drone.jpg?crop=center&height=600&v=1574218061&width=600"
             alt="Shoes" />
             </figure>
             <div className="card-body">
@@ -119,7 +101,25 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/drone'>
+            <div className="card bg-base-100 image-full w-96 shadow-xl">
+            <figure>
+            <img
+            src="https://elomus-theme.myshopify.com/cdn/shop/collections/coll_drone.jpg?crop=center&height=600&v=1574218061&width=600"
+            alt="Shoes" />
+            </figure>
+            <div className="card-body">
+            <h2 className="card-title droFont ">Drone</h2>
+            <p className=" droFont ">6 Items in Stock</p>
+            <div className="card-actions justify-end">
+             <button className="btn  bg-white droFont ">Go Shop</button>
+            </div>
+            </div>
+            </div>
+            </Link>
+
+
+            <Link to='/headphone'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -137,7 +137,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/jewllery'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -155,7 +155,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/scooty'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -173,7 +173,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/shaver'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -191,7 +191,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/shoes'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -209,7 +209,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/skincare'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -226,7 +226,7 @@ const ShopItems = () => {
             </div>
             </Link>
 
-            <Link to=''>
+            <Link to='/smartwatch'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -243,7 +243,7 @@ const ShopItems = () => {
             </div>
             </Link>
 
-            <Link to=''>
+            <Link to='/staff'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -261,7 +261,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/stroller'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img
@@ -279,7 +279,7 @@ const ShopItems = () => {
             </Link>
 
 
-            <Link to=''>
+            <Link to='/wallet'>
             <div className="card bg-base-100 image-full w-96 shadow-xl">
             <figure>
             <img

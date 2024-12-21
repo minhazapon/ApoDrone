@@ -13,6 +13,10 @@ import Home from './Home';
 import Shop from './shop file/Shop';
 import Backpack from './shop file/Backpack';
 import Bag from './shop file/Bag';
+import Cycle from './shop file/Cycle';
+import CoffeMaker from './shop file/CoffeMaker';
+import Drink from './home file/Drink';
+import DroneShop from './shop file/DroneShop';
 
 
 const router = createBrowserRouter([
@@ -35,6 +39,22 @@ const router = createBrowserRouter([
       {
         path: "/bag",
         element: <Bag></Bag> ,
+      },
+      {
+        path: "/cycle",
+        element: <Cycle></Cycle> ,
+      },
+      {
+        path: "/coffe",
+        element: <CoffeMaker></CoffeMaker> ,
+      },
+      {
+        path: "/drink",
+        element: <Drink></Drink> ,
+      },
+      {
+        path: "/drone",
+        element:  <DroneShop></DroneShop>  ,
       },
     ],
   },
