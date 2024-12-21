@@ -87,7 +87,7 @@ const ShopSidebar = () => {
             <img className=" w-[280px] mt-5 rounded-xl " src="https://elomus-theme.myshopify.com/cdn/shop/files/insta_drone_6.jpg?v=1613769451" alt="" />
             </div>
 
-
+ 
           </div>
 
             
