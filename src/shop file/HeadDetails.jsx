@@ -1,15 +1,14 @@
 
 
 
-const CoffeDeatils = ({coffe}) => {
+const HeadDetails = ({head}) => {
 
-
-    const {image, title, price} = coffe
+    const {image, title, price} = head
 
     return (
         <div>
 
-        <div>
+<div>
         <div>
         <div className="card bg-base-100   w-[300px] shadow-xl hover:border-[1px] ">
         <figure className=" p-5">
@@ -46,4 +45,4 @@ const CoffeDeatils = ({coffe}) => {
     );
 };
 
-export default CoffeDeatils;
+export default HeadDetails;

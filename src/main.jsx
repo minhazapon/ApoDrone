@@ -17,6 +17,7 @@ import Cycle from './shop file/Cycle';
 import CoffeMaker from './shop file/CoffeMaker';
 import Drink from './home file/Drink';
 import DroneShop from './shop file/DroneShop';
+import HeadPhone from './shop file/HeadPhone';
 
 
 const router = createBrowserRouter([
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "/drone",
         element:  <DroneShop></DroneShop>  ,
+      },
+      {
+        path: "/headphone",
+        element: <HeadPhone></HeadPhone>  ,
       },
     ],
   },
