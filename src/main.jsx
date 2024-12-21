@@ -21,6 +21,7 @@ import HeadPhone from './shop file/HeadPhone';
 import Jewellery from './shop file/Jewellery';
 import Scooty from './shop file/Scooty';
 import Shaver from './shop file/Shaver';
+import Shoes from './shop file/Shoes';
 
 
 const router = createBrowserRouter([
@@ -75,6 +76,10 @@ const router = createBrowserRouter([
       {
         path: "/shaver",
         element: <Shaver></Shaver>  ,
+      },
+      {
+        path: "/shoes",
+        element: <Shoes></Shoes>  ,
       },
     ],
   },
