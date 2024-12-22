@@ -27,6 +27,7 @@ import Smart from './shop file/Smart';
 import Stroller from './shop file/Stroller';
 import Wallet from './shop file/Wallet';
 import AboutMother from './about file/AboutMother';
+import Service from './service file/Service';
 
 
 const router = createBrowserRouter([
@@ -105,6 +106,10 @@ const router = createBrowserRouter([
       {
         path: "/AboutMother",
         element: <AboutMother></AboutMother>   ,
+      },
+      {
+        path: "/Service",
+        element: <Service></Service>  ,
       },
     ],
   },
