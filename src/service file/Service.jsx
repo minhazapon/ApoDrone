@@ -1,4 +1,6 @@
+import Do from "./Do";
 import ServiceBanner from "./ServiceBanner";
+import Who from "./Who";
 
 
 
@@ -7,6 +9,8 @@ const Service = () => {
         <div>
 
             <ServiceBanner></ServiceBanner>
+            <Who></Who>
+            <Do></Do>
             
         </div>
     );
