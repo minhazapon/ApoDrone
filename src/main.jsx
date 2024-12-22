@@ -33,7 +33,7 @@ import Blog from './blog file/Blog';
 import Information from './information file/Information';
 import ProductsMother from './products file/ProductsMother';
 import ProductManager from './information file/ProductAdd';
-import Buy from './products file/Buy'
+import Pay from './products file/Pay';
 
 
 const router = createBrowserRouter([
@@ -139,7 +139,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/pay",
-        element: <Buy></Buy>   ,
+        element: <Pay></Pay>    ,
       },
     ],
   },
