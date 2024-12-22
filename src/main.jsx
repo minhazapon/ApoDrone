@@ -32,6 +32,8 @@ import Contact from './contact file/Contact';
 import Blog from './blog file/Blog';
 import Information from './information file/Information';
 import ProductsMother from './products file/ProductsMother';
+import ProductManager from './information file/ProductAdd';
+import Buy from './products file/Buy'
 
 
 const router = createBrowserRouter([
@@ -130,6 +132,14 @@ const router = createBrowserRouter([
       {
         path: "/ProductsMother",
         element: <ProductsMother></ProductsMother>   ,
+      },
+      {
+        path: "/add",
+        element: <ProductManager></ProductManager>  ,
+      },
+      {
+        path: "/pay",
+        element: <Buy></Buy>   ,
       },
     ],
   },

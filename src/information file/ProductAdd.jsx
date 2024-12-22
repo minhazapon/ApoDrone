@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ProductManager = () => {
   const [products, setProducts] = useState([]); // State to store products
@@ -159,7 +160,10 @@ const ProductManager = () => {
                 >
                   Remove
                 </button>
+                <Link to='/pay'>
                 <button className=" droFont btn mt-5 bg-cyan-400 text-white ">Buy</button>
+                </Link>
+                
               </div>
             ))}
           </div>

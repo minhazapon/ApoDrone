@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 
 
 
-const PDetails = ({data}) => {
+const PDetails = ({pro}) => {
+     
+    const {image, title, price} = pro
     
-    const {image, title, price} = currentItems
-
     return (
         <div>
 
@@ -33,7 +34,9 @@ const PDetails = ({data}) => {
          <p className=" droFont line-through text-gray-400 ">$5000</p>
         </div>
         <div className="card-actions">
-        <button className="btn droFont border-[1px] border-gray-300 text-gray-500 ">Add Cart</button>
+         <Link to='/add' >
+         <button className="btn droFont border-[1px] border-gray-300 text-gray-500 ">Add Cart</button>
+         </Link>   
         </div>
         </div>
         </div>
