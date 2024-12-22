@@ -31,6 +31,7 @@ import Service from './service file/Service';
 import Contact from './contact file/Contact';
 import Blog from './blog file/Blog';
 import Information from './information file/Information';
+import ProductsMother from './products file/ProductsMother';
 
 
 const router = createBrowserRouter([
@@ -125,6 +126,10 @@ const router = createBrowserRouter([
       {
         path: "/Info",
         element: <Information></Information>   ,
+      },
+      {
+        path: "/ProductsMother",
+        element: <ProductsMother></ProductsMother>   ,
       },
     ],
   },
