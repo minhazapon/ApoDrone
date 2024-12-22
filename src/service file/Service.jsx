@@ -1,4 +1,5 @@
 import Do from "./Do";
+import SendForm from "./SendForm";
 import ServiceBanner from "./ServiceBanner";
 import Who from "./Who";
 
@@ -11,6 +12,7 @@ const Service = () => {
             <ServiceBanner></ServiceBanner>
             <Who></Who>
             <Do></Do>
+            <SendForm></SendForm>
             
         </div>
     );
