@@ -37,7 +37,7 @@ const SendForm = () => {
               })
           setResult(data.message);
         }
-    };
+     };
     
 
     return (

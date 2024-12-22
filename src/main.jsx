@@ -28,6 +28,7 @@ import Stroller from './shop file/Stroller';
 import Wallet from './shop file/Wallet';
 import AboutMother from './about file/AboutMother';
 import Service from './service file/Service';
+import Contact from './contact file/Contact';
 
 
 const router = createBrowserRouter([
@@ -110,6 +111,10 @@ const router = createBrowserRouter([
       {
         path: "/Service",
         element: <Service></Service>  ,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>  ,
       },
     ],
   },
