@@ -159,7 +159,7 @@ const ProductManager = () => {
                 >
                   Remove
                 </button>
-                <button className=" droFont btn mt-5 ">Buy</button>
+                <button className=" droFont btn mt-5 bg-cyan-400 text-white ">Buy</button>
               </div>
             ))}
           </div>
