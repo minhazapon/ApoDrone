@@ -55,7 +55,7 @@ const AddForm = () => {
       </div>
 
       <div style={{ marginTop: "20px" }}>
-        {photos.length > 0 && <h3>Uploaded Photos:</h3>}
+        {photos.length > 0 && <h3 className=" droFont ">Uploaded Photos:</h3>}
         <div
           style={{
             display: "flex",

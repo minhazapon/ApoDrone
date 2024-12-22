@@ -1,5 +1,6 @@
 import AddForm from "./AddForm";
 import InforBanner from "./InforBanner";
+import Products from "./ProductAdd";
 import Que from "./Que";
 
 
@@ -14,7 +15,8 @@ const Information = () => {
             <InforBanner></InforBanner>
             <Que></Que>
             <AddForm></AddForm>
-            
+            <Products></Products>
+           
         </div>
     );
 };
