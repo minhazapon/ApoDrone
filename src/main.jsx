@@ -30,6 +30,7 @@ import AboutMother from './about file/AboutMother';
 import Service from './service file/Service';
 import Contact from './contact file/Contact';
 import Blog from './blog file/Blog';
+import Information from './information file/Information';
 
 
 const router = createBrowserRouter([
@@ -120,6 +121,10 @@ const router = createBrowserRouter([
       {
         path: "/blog",
         element: <Blog></Blog>  ,
+      },
+      {
+        path: "/Info",
+        element: <Information></Information>   ,
       },
     ],
   },
